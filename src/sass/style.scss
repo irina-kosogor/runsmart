@@ -1,0 +1,13 @@
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+
+* {
+    font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
