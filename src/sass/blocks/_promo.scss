@@ -44,5 +44,21 @@
             margin-bottom: 20px;
         }
     }
+
+    &__link {
+        margin-top: 18px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: right;
+        color: $white-color;
+        a {
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            color: $white-color;
+            &:hover {
+                color: $white-color;
+            }
+        }
+    }
 }
 
