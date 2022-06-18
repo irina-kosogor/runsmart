@@ -1,5 +1,62 @@
 @media (max-width: 575px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header {
+        &__logo {
+            width: 200px;
+        }    
+        &__official {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);;
+        }
+    }
+    
+    .promo {
+        padding: 21px 0 30px 0;
+        min-height: auto;
+        &__wrapper {
+            align-items: center;
+            margin-top: 80px;
+        }
+        &__header {
+            font-size: 32px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__icons {
+            margin-top: 35px;   
+            max-width: 95vw;
+            img {
+                height: 45px;
+            }
+        }
+    
+    }
+
     .advantages {
         padding: 30px 0 25px 0;
+    &__wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }    
+    &__item {
+        max-width: 300px;  
+        img {
+            margin-top: 25px;
+        } 
     }
+    &__subtitle {
+        margin-top: 15px;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
 }
