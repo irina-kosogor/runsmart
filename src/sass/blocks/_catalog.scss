@@ -37,6 +37,12 @@
 
     &__content {
         margin-top: 60px;
+        display: none;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        &_active {
+            display: flex;
+        }
     }
 
     &-item {
@@ -45,6 +51,7 @@
         border: 2px solid #E8E8E8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
+        margin-bottom: 20px;
         &__img {
             max-width: 100%;
             height: 200px;
@@ -73,6 +80,7 @@
             font-size: 14px;
             text-align: center;
             text-decoration-line: underline;
+            text-transform: uppercase;
             color: $main-color;
             &:hover {
                 color: $main-color;
@@ -143,6 +151,21 @@
                 margin-left: 0;
             }
         }
-
+        &__back {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 19px));
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            color: $main-color;
+            &:hover {
+                color: $main-color;
+            }
+        }
     }
 }
