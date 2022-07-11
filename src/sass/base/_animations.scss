@@ -1,0 +1,30 @@
+@keyframes fading {
+    0% {transform:rotate(0deg);} 
+    100% {transform:rotate(360deg);}
+    }
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes walking {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-50deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
